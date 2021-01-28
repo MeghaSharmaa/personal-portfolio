@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('https://github.com/MeghaSharmaa/Personal-Portfolio/blob/main/lap1.jpeg?raw=true');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.header{
+    display: flex;
+    position: sticky;
+    top: 0%;
+    background: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+    height: 60px
+}
+
+.logo{
+    width:15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    border-radius: 50px;
+    border: 3px solid grey;
+    height:50px;
+    width: 50px;
+}
+.h-list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    float: right;
+}
+
+.h-list li a{
+    padding: 40px 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    margin-right: 40px;
+    float: right;
+}
+
+.h-list li a:hover{
+    color: cyan;
+    text-decoration: none;
+}
+
+.firstsec{
+    height:80vh;
+}
+.project{
+     display: flex;
+     justify-content: center;
+     align-items: center ;
+     color:white;
+     max-width: 50%;
+     margin: auto;
+     height: 80%;
+}
+
+.contentmain{
+    background-color: rgba(0, 0, 0, 0.979);
+    background-blend-mode: darken;
+}
+
+.project-title{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf{
+    width:30%;
+    margin: 30px;
+}
+
+.secondhalf img{
+    height:200px;
+    width:200px;
+    border: 3px solid white;
+    border-radius: 190px;
+    display: block;
+    margin: auto;
+}
+
+.tagline{
+    font-size: 40px;
+}
+
+.subtagline{
+    font-size: 20px;
+}
+
+.btnli{
+    padding: 8px 20px;
+    margin: 10px 0px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    background-image: linear-gradient(to bottom right, rgb(22, 20, 124), rgb(97, 129, 235));
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+.btnli a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.btngh{
+    padding: 8px 20px;
+    margin: 10px 0px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    background-image: linear-gradient(to bottom right, rgb(9, 104, 67), rgb(15, 20, 82));
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btngh a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.secright{
+    border-bottom: 3px solid rgb(199, 199, 199);
+    border-top: 3px solid rgb(199, 199, 199);
+    display: flex;
+    height: 300px;
+    justify-content: space-evenly;
+    max-width: 90%;
+    background-color: rgb(32, 31, 31);
+    margin: auto;
+}
+.secright2{
+    border-top: 3px solid rgb(199, 199, 199);
+    border-bottom: 3px solid rgb(199, 199, 199);
+    display: flex;
+    height: 600px;
+    justify-content: space-evenly;
+    max-width: 90%;
+    background-color: rgb(32, 31, 31);
+    margin: auto;
+}
+
+.sectag{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 40px 20px 0 20px;
+    color: aliceblue;
+    margin-right: 100px;
+}
+.secsubtag{
+    font-size: 18px;
+    padding: 10px ;
+    color: aliceblue;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 3px;
+}
+  
+.column img {
+    margin-top: 4px;
+    align-items: center;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.btnskill{
+    margin: 10px 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    background-image: linear-gradient(to bottom right, rgb(156, 6, 6), rgb(99, 47, 13));
+    width:25%;
+    display: flex;
+
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    justify-content: center;
+    padding: 10px ;
+    text-align: center;
+}
+.btnphoto{
+    margin: 10px 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    background-image: linear-gradient(to bottom right, rgb(156, 6, 6), rgb(99, 47, 13));
+    width:25%;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.data1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.thumbnail{
+    margin: 30px;
+}
+.thumbnail img{
+    height:300px;
+    width:300px;
+    border: 3px solid white;
+    border-radius: 190px;
+    margin-top: 20px;
+}
+.secleft{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+    justify-content: space-around;
+    max-width: 90%;
+    background-color: rgb(32, 30, 30);
+    margin: auto;
+}
+
+footer{
+    background-color: rgba(122, 8, 8, 0.904);
+    height: 70px;
+    border-top: 5px;
+    border-color: bisque;
+}
+
+.btop a{
+    float: right;
+    font-size: 18px;
+    margin: auto;
+    padding-right:30px;
+    padding-top:20px;
+    text-decoration: none;
+    color:  black;
+
+}
+.social{
+    display: flex;
+    list-style-type: none;
+    padding-top:10px;
+    padding-left: 10px;
+}
+
+.social li a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 27px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+}
