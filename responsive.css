@@ -1,0 +1,198 @@
+@media all and (max-width: 1000px) {
+    .project{
+        height: 60%;
+   }
+   .project-title{
+       width:80%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+    .btnskill{
+        margin: 5px 15px;
+        border: 2px solid white;
+        border-radius: 4px;
+        width:30%;
+    }
+    .sectag{
+        font-size: 20px;
+        padding: 40px 20px 0 20px;
+        margin-right: 100px;
+    }
+    .secsubtag{
+        font-size: 15px;
+        justify-content: space-evenly;
+        padding: 10px ;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    button a{
+        font-size: 10px;
+        padding: 5px ;
+    }
+    .btnphoto{
+        margin: 5px 15px;
+        border: 2px solid white;
+        border-radius: 4px;
+        width:30%;
+    }
+    .secright{
+        height: 210px;
+    }
+    .secondhalf img{
+        height:150px;
+        width:150px;
+        border: 3px solid white;
+        border-radius: 100px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .header{
+        height: 50px
+    }
+    
+    .logo{
+        width:10%;
+    }
+    .logo img{
+        height:40px;
+        width: 40px;
+    }
+    .h-list li a{
+    padding: 40px 50px;
+    font-size: 15px;
+    margin-right: 40px;
+    float: right;
+    }
+    .btnskill{
+        margin: 5px 30px;
+        width:35%;
+    
+    }
+    .btnphoto{
+        margin: 0 30px;
+        width:35%;
+    }
+    .secright{
+        height: 250px;
+    }
+
+    .secleft{
+        height: 300px;
+        padding-bottom: 10px;
+    }
+    .thumbnail img{
+        height: 200px;
+        width: 200px;
+    }
+    .secright2{
+        height:500px
+    }
+}
+@media all and (max-width: 430px) {
+    .header{
+        height: 40px
+    }
+    
+    .logo{
+        width:10%;
+        padding:0 20px;
+    }
+    .logo img{
+        height:30px;
+        width: 30px;
+        
+    }
+    .h-list li a{
+    padding: 10px 0;
+    font-size: 10px;
+    float: right;
+    }
+    .subtagline{
+        font-size: 17px;
+    }
+    .btnli{
+        padding: 8px 0px;
+        margin: 10px 0px;
+    }
+    .btngh{
+        padding: 8px 0px;
+        margin: 10px 0px;
+    }
+    .btnskill{
+        margin: 5px 30px;
+        width:80%;
+        justify-content: center;
+    }
+    .btnphoto{
+        margin: 0 30px;
+        width:80%;
+        justify-content: center;
+    }
+    .secright{
+        height: 500px;
+        max-width: 100%;
+        margin-left: 10px;
+    }
+    .sectag{
+        font-size: 20px;
+        padding: 5px;
+        justify-content: center;
+    }
+    .secsubtag{
+        font-size: 15px;
+        padding: 7px ;
+        margin-left: 30px;
+        justify-content: center;
+    }
+    .secondhalf{
+        width:30%;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .secondhalf img{
+        height:100px;
+        width:100px;
+        border-radius: 100px;
+        margin-right: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .secleft{
+        height: 320px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .thumbnail img{
+        display:none ;
+    }
+    .secright2{
+        height:200px
+    }
+
+    .btop a{
+        font-size: 15px;
+    }
+    .social{
+        display: flex;
+        list-style-type: none;
+        padding-top:10px;
+        padding-left: 10px;
+    }
+    
+    .social li a{
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 20px;
+        padding-right: 20px;
+        padding-left: 5px;
+        margin: auto;
+    }
+
+}
+
